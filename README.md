@@ -5,9 +5,9 @@ Sublime Text snippets for two one-page resume templates from <a href="https://re
 - [atsresume](https://ctan.org/pkg/atsresume), a LaTeX class on CTAN
 - [readable-classic](https://typst.app/universe/package/readable-classic), a Typst package on Typst Universe
 
-Both set the same layout: your name centered at the top, section headings in capitals over a thin rule, places and dates on the right margin. Everything sits in one column, so applicant tracking systems read the text in the right order.
+Both set the same layout: your name centered at the top, section headings in capitals over a thin rule, places and dates on the right margin. Everything sits in one column, so the text in the PDF comes out in reading order, which is what an applicant tracking system needs to parse it.
 
-Each snippet uses the commands and argument names the template defines, so what you insert compiles as it is.
+Each snippet uses the commands and argument names the template defines. `ats-resume` and `rc-resume` insert a complete file; the others go inside one.
 
 ## Before you start
 
