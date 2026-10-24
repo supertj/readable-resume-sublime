@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[#activity(
+	name: "${1:Organization}",
+	role: "${2:Role}",
+	date: "${3:Sep 2023} – ${4:Present}",
+)[
+	- ${5:What you did there}
+]
+$0]]></content>
+	<tabTrigger>rc-activity</tabTrigger>
+	<scope>text.typst</scope>
+	<description>#activity entry for a club or volunteering</description>
+</snippet>

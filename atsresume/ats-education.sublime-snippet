@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[\education{${1:University}}{${2:City, ST}}{${3:Bachelor of Science in Biology}}{${4:Sep 2020} – ${5:May 2024}}
+\begin{itemize}
+	\item ${6:GPA, honors or relevant coursework}
+\end{itemize}
+$0]]></content>
+	<tabTrigger>ats-education</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>\education entry: school, place, degree, dates, bullets</description>
+</snippet>

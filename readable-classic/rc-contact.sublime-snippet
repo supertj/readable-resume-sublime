@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[contact: (
+	"${1:City, ST}",
+	"${2:(555) 555-0100}",
+	"${3:you@example.com}",
+	"${4:linkedin.com/in/yourname}",
+),
+$0]]></content>
+	<tabTrigger>rc-contact</tabTrigger>
+	<scope>text.typst</scope>
+	<description>contact: list for resume.with; emails and URLs become links</description>
+</snippet>

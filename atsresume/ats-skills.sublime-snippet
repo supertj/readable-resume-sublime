@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[\section{Skills}
+\skill{${1:Technical}}{${2:Excel, SQL, Python}}
+\skill{${3:Languages}}{${4:Spanish (fluent)}}
+$0]]></content>
+	<tabTrigger>ats-skills</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Skills section with two \skill lines</description>
+</snippet>

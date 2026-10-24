@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[\begin{itemize}
+	\item ${1:First point}
+	\item ${2:Second point}
+\end{itemize}
+$0]]></content>
+	<tabTrigger>ats-bullets</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>itemize list of bullet points</description>
+</snippet>

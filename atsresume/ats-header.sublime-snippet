@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[\name{${1:Your Name}}
+\contact{${2:City, ST}}
+\contact{${3:(555) 555-0100}}
+\contact{\email{${4:you@example.com}}}
+\contact{\weblink{${5:linkedin.com/in/yourname}}}
+$0]]></content>
+	<tabTrigger>ats-header</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>\name and \contact lines for the header (preamble)</description>
+</snippet>

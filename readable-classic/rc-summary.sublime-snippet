@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[= Summary
+
+${1:Two or three sentences on what you do and what you want next.}
+$0]]></content>
+	<tabTrigger>rc-summary</tabTrigger>
+	<scope>text.typst</scope>
+	<description>Summary heading with a short paragraph</description>
+</snippet>

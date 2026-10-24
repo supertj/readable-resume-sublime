@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[paper: "${1:us-letter}",
+margin: ${2:auto},
+font: ${3:("Georgia", "Libertinus Serif")},
+font-size: ${4:10.5pt},
+$0]]></content>
+	<tabTrigger>rc-page</tabTrigger>
+	<scope>text.typst</scope>
+	<description>Page and font options for resume.with</description>
+</snippet>

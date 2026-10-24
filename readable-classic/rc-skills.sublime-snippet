@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[= Skills
+
+#skills((
+	"${1:Technical}": "${2:Excel, SQL, Python}",
+	"${3:Languages}": "${4:Spanish (fluent)}",
+))
+$0]]></content>
+	<tabTrigger>rc-skills</tabTrigger>
+	<scope>text.typst</scope>
+	<description>Skills heading and #skills with two lines</description>
+</snippet>

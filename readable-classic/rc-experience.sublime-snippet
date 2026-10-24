@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[#experience(
+	company: "${1:Company}",
+	location: "${2:City, ST}",
+	title: "${3:Job Title}",
+	date: "${4:Jun 2024} – ${5:Present}",
+)[
+	- ${6:What you did, with a number if you have one}
+]
+$0]]></content>
+	<tabTrigger>rc-experience</tabTrigger>
+	<scope>text.typst</scope>
+	<description>#experience entry: company, location, title, date, bullets</description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[\contact{\email{${1:you@example.com}}}$0]]></content>
+	<tabTrigger>ats-email</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Email address in the contact line, as a link</description>
+</snippet>

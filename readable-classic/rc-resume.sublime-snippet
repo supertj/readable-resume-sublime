@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[#import "@preview/readable-classic:0.1.0": *
+
+#show: resume.with(
+	name: "${1:Your Name}",
+	contact: (
+		"${2:City, ST}",
+		"${3:(555) 555-0100}",
+		"${4:you@example.com}",
+		"${5:linkedin.com/in/yourname}",
+	),
+	paper: "${6:us-letter}",
+)
+
+= Experience
+
+#experience(
+	company: "${7:Company}",
+	location: "${8:City, ST}",
+	title: "${9:Job Title}",
+	date: "${10:Jun 2024} – ${11:Present}",
+)[
+	- ${12:What you did, with a number if you have one}
+]
+
+= Education
+
+#education(
+	school: "${13:University}",
+	location: "${14:City, ST}",
+	degree: "${15:Bachelor of Science in Biology}",
+	date: "${16:May 2024}",
+)
+
+= Skills
+
+#skills((
+	"${17:Technical}": "${18:Excel, SQL, Python}",
+	"${19:Languages}": "${20:Spanish (fluent)}",
+))
+$0]]></content>
+	<tabTrigger>rc-resume</tabTrigger>
+	<scope>text.typst</scope>
+	<description>One-page resume: import, setup, Experience, Education, Skills</description>
+</snippet>

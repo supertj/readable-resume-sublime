@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[\documentclass[${1:letterpaper}]{atsresume}
+\name{${2:Your Name}}
+\contact{${3:City, ST}}
+\contact{${4:(555) 555-0100}}
+\contact{\email{${5:you@example.com}}}
+\contact{\weblink{${6:linkedin.com/in/yourname}}}
+
+\begin{document}
+\makeheader
+
+\section{Experience}
+\experience{${7:Company}}{${8:City, ST}}{${9:Job Title}}{${10:Jun 2024} – ${11:Present}}
+\begin{itemize}
+	\item ${12:What you did, with a number if you have one}
+\end{itemize}
+
+\section{Education}
+\education{${13:University}}{${14:City, ST}}{${15:Bachelor of Science in Biology}}{${16:May 2024}}
+
+\section{Skills}
+\skill{${17:Technical}}{${18:Excel, SQL, Python}}
+\skill{${19:Languages}}{${20:Spanish (fluent)}}
+$0
+\end{document}]]></content>
+	<tabTrigger>ats-resume</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>One-page resume: class, header, Experience, Education, Skills</description>
+</snippet>

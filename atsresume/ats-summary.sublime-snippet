@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[\section{Summary}
+${1:Two or three sentences on what you do and what you want next.}
+$0]]></content>
+	<tabTrigger>ats-summary</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>Summary section with a short paragraph</description>
+</snippet>

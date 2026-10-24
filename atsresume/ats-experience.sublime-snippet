@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[\experience{${1:Company}}{${2:City, ST}}{${3:Job Title}}{${4:Jun 2024} – ${5:Present}}
+\begin{itemize}
+	\item ${6:What you did, with a number if you have one}
+\end{itemize}
+$0]]></content>
+	<tabTrigger>ats-experience</tabTrigger>
+	<scope>text.tex.latex</scope>
+	<description>\experience entry: company, place, job title, dates, bullets</description>
+</snippet>

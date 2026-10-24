@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[#show: resume.with(
+	name: "${1:Your Name}",
+	contact: (
+		"${2:City, ST}",
+		"${3:(555) 555-0100}",
+		"${4:you@example.com}",
+		"${5:linkedin.com/in/yourname}",
+	),
+	paper: "${6:us-letter}",
+)
+$0]]></content>
+	<tabTrigger>rc-setup</tabTrigger>
+	<scope>text.typst</scope>
+	<description>#show: resume.with(...) with name, contact line and paper</description>
+</snippet>

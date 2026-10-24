@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[#activity(
+	name: "${1:Project Name}",
+	role: "${2:Role}",
+	date: "${3:Jan 2025} – ${4:May 2025}",
+)[
+	- ${5:What you built and what came of it}
+]
+$0]]></content>
+	<tabTrigger>rc-project</tabTrigger>
+	<scope>text.typst</scope>
+	<description>Project as an #activity entry: name, role, date, bullets</description>
+</snippet>

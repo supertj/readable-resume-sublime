@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[#education(
+	school: "${1:University}",
+	location: "${2:City, ST}",
+	degree: "${3:Bachelor of Science in Biology}",
+	date: "${4:Sep 2020} – ${5:May 2024}",
+)[
+	- ${6:GPA, honors or relevant coursework}
+]
+$0]]></content>
+	<tabTrigger>rc-education</tabTrigger>
+	<scope>text.typst</scope>
+	<description>#education entry: school, location, degree, date, bullets</description>
+</snippet>
