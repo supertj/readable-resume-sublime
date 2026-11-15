@@ -7,6 +7,8 @@ Sublime Text snippets for two one-page resume templates from <a href="https://re
 
 Both set the same layout: your name centered at the top, section headings in capitals over a thin rule, places and dates on the right margin. Everything sits in one column, so the text in the PDF comes out in reading order, which is what an applicant tracking system needs to parse it.
 
+If you'd rather write in LibreOffice Writer, the same layout is on the LibreOffice templates site as the [Classic](https://extensions.libreoffice.org/en/extensions/show/99679) and [Plain](https://extensions.libreoffice.org/en/extensions/show/99699) ATS-friendly resume templates, a [Student resume template](https://extensions.libreoffice.org/en/extensions/show/99701) that puts education first, and [plain and student cover letters](https://extensions.libreoffice.org/en/extensions/show/99702).
+
 Each snippet uses the commands and argument names the template defines. `ats-resume` and `rc-resume` insert a complete file; the others go inside one.
 
 ## Before you start
